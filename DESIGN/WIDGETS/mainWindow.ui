@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1267</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="statusTip">
+   <string>AssyDevSociety...</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {background-color : #ecf0f5 }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>250</y>
+      <width>771</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="ProdLayout"/>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="styleSheet">
+    <string notr="true">background-color:#ecf0f5;</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="HotelAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="HomeAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="CaisseAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="TablesAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="StockAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="ProviderAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="WorkerAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="ComptaAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="StatAct"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="EditAct"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1267</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string> </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string> </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string> </string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <action name="CaisseAct">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/cash-caisse.png</normaloff>../../IMAGES/TooBarImages/cash-caisse.png</iconset>
+   </property>
+   <property name="text">
+    <string>Caisse  </string>
+   </property>
+   <property name="toolTip">
+    <string>Caisse  &quot;F1&quot;</string>
+   </property>
+   <property name="statusTip">
+    <string>Caisse et Caissier...</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="HomeAct">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/point-of-sale.png</normaloff>../../IMAGES/TooBarImages/point-of-sale.png</iconset>
+   </property>
+   <property name="text">
+    <string>Acceuil  </string>
+   </property>
+   <property name="toolTip">
+    <string>Point de vente  &quot;espace&quot;</string>
+   </property>
+   <property name="statusTip">
+    <string>Acceuil...</string>
+   </property>
+   <property name="shortcut">
+    <string>Space</string>
+   </property>
+  </action>
+  <action name="EditAct">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/gear.png</normaloff>../../IMAGES/TooBarImages/gear.png</iconset>
+   </property>
+   <property name="text">
+    <string>Réglage</string>
+   </property>
+   <property name="toolTip">
+    <string>Réglages  &quot;F8&quot;</string>
+   </property>
+   <property name="statusTip">
+    <string>Réglages sur mon produit</string>
+   </property>
+   <property name="shortcut">
+    <string>F8</string>
+   </property>
+  </action>
+  <action name="TablesAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/table..png</normaloff>../../IMAGES/TooBarImages/table..png</iconset>
+   </property>
+   <property name="text">
+    <string>Tables</string>
+   </property>
+   <property name="toolTip">
+    <string>Tables &quot;F2&quot;</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="ComptaAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/businessman.png</normaloff>../../IMAGES/TooBarImages/businessman.png</iconset>
+   </property>
+   <property name="text">
+    <string>Comptabilite</string>
+   </property>
+   <property name="toolTip">
+    <string>Comptabilite &quot;F3&quot;</string>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="ProviderAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/ToolBarFournisseur.gif</normaloff>../../IMAGES/TooBarImages/ToolBarFournisseur.gif</iconset>
+   </property>
+   <property name="text">
+    <string>Fournisseur</string>
+   </property>
+   <property name="toolTip">
+    <string>Gestion Fournisseur &quot;F4&quot;</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="WorkerAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/mechanic.png</normaloff>../../IMAGES/TooBarImages/mechanic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emplyées</string>
+   </property>
+   <property name="toolTip">
+    <string>Gestion Employée &quot;F5&quot;</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="StockAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/warehouse.png</normaloff>../../IMAGES/TooBarImages/warehouse.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stock</string>
+   </property>
+   <property name="toolTip">
+    <string>Gestion Stock</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="StatAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/bars.png</normaloff>../../IMAGES/TooBarImages/bars.png</iconset>
+   </property>
+   <property name="text">
+    <string>Statistiques</string>
+   </property>
+   <property name="toolTip">
+    <string>Statistiques &quot;F7&quot;</string>
+   </property>
+   <property name="shortcut">
+    <string>F7</string>
+   </property>
+  </action>
+  <action name="HotelAct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/TooBarImages/home.png</normaloff>../../IMAGES/TooBarImages/home.png</iconset>
+   </property>
+   <property name="text">
+    <string>Hotel</string>
+   </property>
+   <property name="toolTip">
+    <string>Mon Hotel &quot;CTR + H&quot;</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

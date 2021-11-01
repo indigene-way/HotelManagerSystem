@@ -1,0 +1,2663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>providerWidget</class>
+ <widget class="QWidget" name="providerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1282</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#ecf0f5;</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>21</y>
+     <width>161</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="MenuLayout_3">
+    <item>
+     <widget class="QFrame" name="MenuFrame">
+      <property name="styleSheet">
+       <string notr="true">QFrame {background-color: #ecf0f5;}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="providerListWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>141</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor" stdset="0">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Liste/Choix des fournisseurs</string>
+       </property>
+       <property name="statusTip">
+        <string>Choix d'un fournisseurs</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QListWidget{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028; }
+</string>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="dragDropMode">
+        <enum>QAbstractItemView::DragOnly</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerNbr">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Nombre de commandes depuis ouverture</string>
+       </property>
+       <property name="statusTip">
+        <string>Nombre de commandes...</string>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color :#ecf0f5;color:#444444;}</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri Light</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Nombre de Fournisseurs Enregistrés</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color :#ecf0f5;color:#444444;border:0px;text-align:left;}</string>
+       </property>
+       <property name="text">
+        <string>FOURNISSEURS</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/Icons/worker-loading-boxes.png</normaloff>../../IMAGES/Icons/worker-loading-boxes.png</iconset>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>1</y>
+     <width>1271</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="MenuProd_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>411</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #444444;text-align:left; color : #f96332; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Hotel Manager Solution : Fournisseurs, Bons d'achat et commande</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/Icons/eat.png</normaloff>../../IMAGES/Icons/eat.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>0</y>
+         <width>291</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color:#444444;color:white;border : 0px;text-align:center;}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="viewProviderRefNum">
+       <property name="geometry">
+        <rect>
+         <x>1010</x>
+         <y>0</y>
+         <width>50</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color :#444444;color:white;}</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>0</y>
+         <width>301</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color:#444444;color:white;border : 0px;text-align:center;}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="categoryIndicator">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>0</y>
+         <width>281</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color:#444444;color:white;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Bons d'Achats &amp; de Commandes</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>0</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri Light</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Nombre de transactions Validées</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color :#444444;color:white;border:0px;text-align:left;}</string>
+       </property>
+       <property name="text">
+        <string>Bons</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/Icons/invoice.png</normaloff>../../IMAGES/Icons/invoice.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="societyIndicator">
+       <property name="geometry">
+        <rect>
+         <x>1070</x>
+         <y>0</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>7</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Powered And Designed by AssyDevSociety © 2020. </string>
+       </property>
+       <property name="statusTip">
+        <string>Powered And Designed by AssyDevSociety © 2020. </string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color :#ecf0f5;background-color :#444444}</string>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>AssyDevSociety.ALL RIGHTS RESERVED © 2020.</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>530</y>
+     <width>1271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true">QFrame{background-color:#ecf0f5;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="Line" name="line_8">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>0</y>
+         <width>1021</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>1261</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="validButton">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Calculer le total de la transaction</string>
+       </property>
+       <property name="statusTip">
+        <string>Calcul du total de la transaction..</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;text-align:center;}
+QPushButton:hover{color:#000028;background-color:#f96332;}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Total</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/ValidationButton/bill.png</normaloff>../../IMAGES/ValidationButton/bill.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="nextButton">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>20</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Valider la transaction</string>
+       </property>
+       <property name="statusTip">
+        <string>Validation de la transaction...</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;text-align:center;}
+QPushButton:hover{color:#000028;background-color:#f96332;}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Valider</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/ValidationButton/confirm.png</normaloff>../../IMAGES/ValidationButton/confirm.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="undoButton">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>20</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Annuler la transaction</string>
+       </property>
+       <property name="statusTip">
+        <string>Annulation de la transaction...</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;text-align:center;}
+QPushButton:hover{color:#000028;background-color:#f96332;}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Annuler</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/ValidationButton/back.png</normaloff>../../IMAGES/ValidationButton/back.png</iconset>
+       </property>
+      </widget>
+      <widget class="Line" name="viewLinaV2_5">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>20</y>
+         <width>20</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_7">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="providerEditer">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Editer/Gérer les Fournisseurs.</string>
+       </property>
+       <property name="statusTip">
+        <string>Edition/Gestion des Fournisseurs...</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{color:#f96332}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Editer Fournisseur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/EditImages/tablet.png</normaloff>../../IMAGES/EditImages/tablet.png</iconset>
+       </property>
+      </widget>
+      <widget class="Line" name="viewLinaV2_6">
+       <property name="geometry">
+        <rect>
+         <x>1040</x>
+         <y>20</y>
+         <width>20</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QLCDNumber" name="viewProviderTotal">
+       <property name="geometry">
+        <rect>
+         <x>1060</x>
+         <y>40</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Somme totale à payer</string>
+       </property>
+       <property name="statusTip">
+        <string>Total à payer...</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLCDNumber { color: #00ea00; background-color: black; border: 1px solid black  ; height:35px;text-align:center;}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="smallDecimalPoint">
+        <bool>false</bool>
+       </property>
+       <property name="digitCount">
+        <number>10</number>
+       </property>
+       <property name="mode">
+        <enum>QLCDNumber::Dec</enum>
+       </property>
+       <property name="segmentStyle">
+        <enum>QLCDNumber::Flat</enum>
+       </property>
+       <property name="value" stdset="0">
+        <double>0.000000000000000</double>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="frame_6">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>30</y>
+     <width>191</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Restaurent Manager Solution</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align:center; color : black; border: 0px solid #f96332; opacity:0.4;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../IMAGES/Icons/hotel.png</normaloff>../../IMAGES/Icons/hotel.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MenuProd_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028;border:0px solid black;border-radius:5px;}
+</string>
+    </property>
+    <property name="text">
+     <string>Historique Transactions</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../IMAGES/Icons/receipt.png</normaloff>../../IMAGES/Icons/receipt.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Nombre de Produits sélectionnés</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color :#ecf0f5;color:#444444;border:0px;text-align:left;}</string>
+    </property>
+    <property name="text">
+     <string>Produits</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../IMAGES/Icons/meal.png</normaloff>../../IMAGES/Icons/meal.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="provProducts">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Nombre de commandes depuis ouverture</string>
+    </property>
+    <property name="statusTip">
+     <string>Nombre de commandes...</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color :#ecf0f5;color:#444444;}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="transactListWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Historique transaction</string>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{background-color: white;text-align:left; color : #000028 ;border:1px solid black;border-radius:5px }
+</string>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="dragDropMode">
+     <enum>QAbstractItemView::DragOnly</enum>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="ProdList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>181</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Produits Selectionnés</string>
+    </property>
+    <property name="statusTip">
+     <string>Produits Selectionnés</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{background-color: #ecf0f5;text-align:center; color : #000028 ; border: 0px solid #000028; }
+</string>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="dragDropMode">
+     <enum>QAbstractItemView::DragOnly</enum>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>801</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="ViewLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background:white;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="providerDName">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>70</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{border:0px}</string>
+       </property>
+       <property name="text">
+        <string>Nom Fournisseur</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDTitle_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>300</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Méthode de payement :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="providerName">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>70</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;</string>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>220</y>
+         <width>741</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QtabWidget{background-color:darkgrey;border:0px solid black;border-radius:0px;}</string>
+       </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::North</enum>
+       </property>
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="ProduitA_2">
+        <attribute name="title">
+         <string>Produit 1</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Produit A...</string>
+        </attribute>
+        <widget class="QSpinBox" name="productQuantite1">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>600</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_18">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Prix Unitaire :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_29">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>10</y>
+           <width>21</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_19">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Qnt.</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="product1">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>10</y>
+           <width>131</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_20">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>10</y>
+           <width>51</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Produit 1</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="productPrice1">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="ProduitB_2">
+        <attribute name="title">
+         <string>Produit 2</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Produit B ...</string>
+        </attribute>
+        <widget class="QSpinBox" name="productQuantite2">
+         <property name="geometry">
+          <rect>
+           <x>600</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_21">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Prix Unitaire :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_30">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>10</y>
+           <width>21</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="productPrice2">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_22">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>10</y>
+           <width>51</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Produit 2</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="product2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>10</y>
+           <width>131</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_23">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Qnt.</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="ProduitC_2">
+        <attribute name="title">
+         <string>Produit 3</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Produit C..</string>
+        </attribute>
+        <widget class="QSpinBox" name="productQuantite3">
+         <property name="geometry">
+          <rect>
+           <x>600</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_24">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Prix Unitaire :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>10</y>
+           <width>21</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="productPrice3">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_25">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>10</y>
+           <width>51</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Produit 3</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="product3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>10</y>
+           <width>131</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_26">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Qnt.</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="ProduitD_2">
+        <attribute name="title">
+         <string>Produit 4</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Produit D...</string>
+        </attribute>
+        <widget class="QSpinBox" name="productQuantite4">
+         <property name="geometry">
+          <rect>
+           <x>600</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_27">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Prix Unitaire :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>10</y>
+           <width>21</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="productPrice4">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_28">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>10</y>
+           <width>51</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Produit 4</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="product4">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>10</y>
+           <width>131</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_29">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Qnt.</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="ProduitE_2">
+        <attribute name="title">
+         <string>Produit 5</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Produit E...</string>
+        </attribute>
+        <widget class="QLabel" name="providerDProduct_30">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>10</y>
+           <width>51</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Produit 5</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="productPrice5">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_31">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>10</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Prix Unitaire :</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="product5">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>10</y>
+           <width>131</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+        </widget>
+        <widget class="QSpinBox" name="productQuantite5">
+         <property name="geometry">
+          <rect>
+           <x>600</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>10</y>
+           <width>21</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="providerDProduct_32">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>41</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Qnt.</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QLineEdit" name="providerNumber">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>160</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>60</y>
+         <width>181</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Restaurent Manager Solution</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">text-align:center; color : black; border: 0px solid #f96332; opacity:0.4;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/Icons/worker-loading-boxes.png</normaloff>../../IMAGES/Icons/worker-loading-boxes.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDNum">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>160</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{border:0px}</string>
+       </property>
+       <property name="text">
+        <string>Numero .Fournisseur</string>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>330</y>
+         <width>741</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="statusTip">
+        <string>Méthode de payement...</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTabWidget{background-color:darkgrey; border:0px solid red;}</string>
+       </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::North</enum>
+       </property>
+       <property name="tabShape">
+        <enum>QTabWidget::Rounded</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <property name="tabBarAutoHide">
+        <bool>false</bool>
+       </property>
+       <widget class="QWidget" name="cashMethode_2">
+        <attribute name="title">
+         <string>Cash</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Payement en cash.</string>
+        </attribute>
+        <attribute name="whatsThis">
+         <string>Méthode de payement cash...</string>
+        </attribute>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>Somme à payer :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>60</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>Payement via :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="totalProviderCash">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>20</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="payMthdCash">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>60</y>
+           <width>131</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox{background-color:white;border : 1px solid; border-radius:1px;}</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Caisse</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Autre</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>20</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBoxCash">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Payement en cash</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Chèque</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Payement par chèque.</string>
+        </attribute>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>20</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Chèque No :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>60</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Compte No :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>60</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Virement le :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Banque :</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="checkNo">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>20</y>
+           <width>113</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit{background-color:white;border : 1px solid; border-radius:1px;}</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="checkCompteNo">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>60</y>
+           <width>113</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit{background-color:white;border : 1px solid; border-radius:1px;}</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="checkBanque">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>20</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit{background-color:white;border : 1px solid; border-radius:1px;}</string>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="checkDateEdit">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>60</y>
+           <width>101</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateEdit{background-color:white;border-bottom : 1px solid;border-top:1px solid; border-radius:1px;}</string>
+         </property>
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2020</year>
+           <month>1</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="minimumDateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2019</year>
+           <month>12</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBoxCheck">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>10</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Payement par chèque</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_5">
+        <attribute name="title">
+         <string>A crédit</string>
+        </attribute>
+        <attribute name="toolTip">
+         <string>Payement â crédit.</string>
+        </attribute>
+        <widget class="QDateEdit" name="creditVirement">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>60</y>
+           <width>101</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateEdit{background-color:white;border:1px solid; border-radius:1px;}</string>
+         </property>
+         <property name="minimumDate">
+          <date>
+           <year>2019</year>
+           <month>12</month>
+           <day>1</day>
+          </date>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_35">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>60</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px}</string>
+         </property>
+         <property name="text">
+          <string>Virement le :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_36">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>20</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>Somme à payer :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="totalProviderCredit">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>20</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>20</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_38">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>20</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>Avance :</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="creditAvance">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>20</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="cursorPosition">
+          <number>1</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_39">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>20</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border:0px;border-bottom : 1px solid;border-top:1px solid; border-radius:1px;}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_40">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>60</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{color :#ff0000; border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>DA</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_41">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>60</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>Somme Restante :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="creditRemain">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>60</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{color :#ff0000; border : 0px}</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBoxCredit">
+         <property name="geometry">
+          <rect>
+           <x>560</x>
+           <y>10</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Payement à crédit</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="providerDType">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>110</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{border:0px}</string>
+       </property>
+       <property name="text">
+        <string>Type de produit</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDTitle">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Reseignementsd sur Fournisseurs :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDTitle_3">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>190</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Selection des produits :</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="providerProductType">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>110</y>
+         <width>131</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox{background-color:white;border : 1px solid; border-radius:1px;}</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

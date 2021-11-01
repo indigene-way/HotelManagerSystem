@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wcategoryCreatorDialog</class>
+ <widget class="QDialog" name="wcategoryCreatorDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="categorytabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>521</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>cat 1</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 1</string>
+     </property>
+     <widget class="QLabel" name="label_67">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 1</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat1">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>cat 2</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 2</string>
+     </property>
+     <widget class="QLabel" name="label_66">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 2</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>cat 3</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 3</string>
+     </property>
+     <widget class="QLabel" name="label_65">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 3</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat3">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>cat 4</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 4</string>
+     </property>
+     <widget class="QLabel" name="label_64">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 4</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat4">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>cat 5</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 5</string>
+     </property>
+     <widget class="QLabel" name="label_63">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 5</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat5">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>cat 6</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 6</string>
+     </property>
+     <widget class="QLabel" name="label_62">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 6</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat6">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="categoryTab7">
+    <attribute name="title">
+     <string>cat 7</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 7</string>
+     </property>
+     <widget class="QLabel" name="label_61">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 7</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat7">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="categoryTab8">
+    <attribute name="title">
+     <string>cat 8</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 8</string>
+     </property>
+     <widget class="QLabel" name="label_60">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 8</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat8">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="categoryTab9">
+    <attribute name="title">
+     <string>cat 9</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 9</string>
+     </property>
+     <widget class="QLabel" name="label_59">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 9</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat9">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="categoryTab10">
+    <attribute name="title">
+     <string>cat 10</string>
+    </attribute>
+    <widget class="QGroupBox" name="subCategoryGroupBox_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>451</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Edition de la catégorie 10</string>
+     </property>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom la categorie 10</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dialogCat10">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="catOK">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>250</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+   </property>
+   <property name="statusTip">
+    <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ background-color:white; border radius:0.3px;}</string>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="catAnnuler">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>250</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ background-color:white; border radius:0.3px;}</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color:#2f4f4f;border : 0px;text-align:center;}</string>
+   </property>
+   <property name="text">
+    <string>Gestion des catégories d'employé(e)s</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/EditImages/drawing-tablet.png</normaloff>../../IMAGES/EditImages/drawing-tablet.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

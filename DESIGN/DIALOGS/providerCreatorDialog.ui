@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>providerCreatorDialog</class>
+ <widget class="QDialog" name="providerCreatorDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="providerEditNO">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>300</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ background-color:white; border radius:0.3px;}</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="providerEditOK">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>300</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+   </property>
+   <property name="statusTip">
+    <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ background-color:white; border radius:0.3px;}</string>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color:#2f4f4f;border : 0px;text-align:center;}</string>
+   </property>
+   <property name="text">
+    <string>Gestion des Fournisseurs</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../IMAGES/EditImages/drawing-tablet.png</normaloff>../../IMAGES/EditImages/drawing-tablet.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="numDelComboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>521</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="productTab1_2">
+    <attribute name="title">
+     <string>Ajouter</string>
+    </attribute>
+    <widget class="QLabel" name="HeaderTitle_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+     </property>
+     <property name="text">
+      <string>Ajouter un Nouveau Fournisseur</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="providerDName">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>41</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Nom Fournisseur</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dialog_providerNumber">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>41</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dialog_providerName">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>41</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="providerDType">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>71</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Type de produit</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="dialog_providerCategory">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>71</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="providerDNum">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>41</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Numero .Fournisseur</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="provAdd">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>80</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+     </property>
+     <property name="statusTip">
+      <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{  border:0px;}
+QPushButton:hover{color:green;}
+QPushButton:focus{color:green;}</string>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../IMAGES/EditImages/database (1).png</normaloff>../../IMAGES/EditImages/database (1).png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Return</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="productCreatorGroupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>491</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="providerDTitle_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+      </property>
+      <property name="text">
+       <string>Produits Fournits  à ajouter :</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="dialog_productTab">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>411</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QtabWidget{background-color:white;}</string>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="QWidget" name="ProduitA_4">
+       <attribute name="title">
+        <string>Produit 1</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit A...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_38">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_productPrice1">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_product1">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_39">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 1</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitB_4">
+       <attribute name="title">
+        <string>Produit 2</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit B ...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_40">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_productPrice2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_41">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 2</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_product2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitC_4">
+       <attribute name="title">
+        <string>Produit 3</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit C..</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_42">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_productPrice3">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_43">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 3</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_product3">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitD_4">
+       <attribute name="title">
+        <string>Produit 4</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit D...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_44">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_productPrice4">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_45">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 4</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_product4">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitE_4">
+       <attribute name="title">
+        <string>Produit 5</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit E...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_46">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 5</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_productPrice5">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_47">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dialog_product5">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="productTab2_2">
+    <attribute name="title">
+     <string>Modifier</string>
+    </attribute>
+    <widget class="QLabel" name="providerDName_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>41</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Nouveau nom</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="newProviderCategory">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>71</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="providerDType_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>71</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Nouveau Type</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="newProviderName">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>41</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="providerDNum_2">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>41</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Nouveau Numero</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="HeaderTitle_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+     </property>
+     <property name="text">
+      <string>Modifier Information Fournisseur</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="newProviderNum">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>41</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>10</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Fournisseur</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="providerModifCombo">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>10</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="currentText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="provModif">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>80</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+     </property>
+     <property name="statusTip">
+      <string>Enregistrer les modification  &quot;ENTRER&quot;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{  border:0px;}
+QPushButton:hover{color:green;}
+QPushButton:focus{color:green;}</string>
+     </property>
+     <property name="text">
+      <string>Modifier</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../IMAGES/EditImages/database (1).png</normaloff>../../IMAGES/EditImages/database (1).png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Return</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="productCreatorGroupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>491</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="providerDTitle_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+      </property>
+      <property name="text">
+       <string>Produits Fournits  à modifier :</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="product_modif2_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>411</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QtabWidget{background-color:white;}</string>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="ProduitA_5">
+       <attribute name="title">
+        <string>Produit 1</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit A...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_48">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_44">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="price_modif1">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="product_modif1">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_49">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 1</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitB_5">
+       <attribute name="title">
+        <string>Produit 2</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit B ...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_50">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="price_modif2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_51">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 2</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="product_modif2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitC_5">
+       <attribute name="title">
+        <string>Produit 3</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit C..</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_52">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_46">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="price_modif3">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_53">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 3</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="product_modif3">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitD_5">
+       <attribute name="title">
+        <string>Produit 4</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit D...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_54">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="price_modif4">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_55">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 4</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="product_modif4">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ProduitE_5">
+       <attribute name="title">
+        <string>Produit 5</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Produit E...</string>
+       </attribute>
+       <widget class="QLabel" name="providerDProduct_56">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Produit 5</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="price_modif5">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="providerDProduct_57">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>Prix Unitaire :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="product_modif5">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_48">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>21</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border:0px}</string>
+        </property>
+        <property name="text">
+         <string>DA</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="productTab3_2">
+    <attribute name="title">
+     <string>Suprimer</string>
+    </attribute>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Fournisseur</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="HeaderTitle_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>-1</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+     </property>
+     <property name="text">
+      <string>Suprimer Fournisseur/Produit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="providerDName_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{border:0px}</string>
+     </property>
+     <property name="text">
+      <string>Nouveau nom</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="providerDelCombo">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>40</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="currentText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="delProviderName">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="provDel">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>80</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>Suprimer le fournisseur</string>
+     </property>
+     <property name="statusTip">
+      <string>supression fournisseur</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{  border:0px;}
+QPushButton:hover{color:green;}
+QPushButton:focus{color:green;}</string>
+     </property>
+     <property name="text">
+      <string>Suprimer </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../IMAGES/EditImages/database (1).png</normaloff>../../IMAGES/EditImages/database (1).png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Return</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="providerNbr">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>300</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#2f4f4f;border : 0px; text-align:center;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="HeaderTitle_8">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+   </property>
+   <property name="text">
+    <string>Nombre Actuel de Fournisseurs :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

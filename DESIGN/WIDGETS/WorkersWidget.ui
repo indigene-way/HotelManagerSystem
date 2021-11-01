@@ -1,0 +1,2155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkerWidget</class>
+ <widget class="QWidget" name="WorkerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {background-color : #ecf0f5 }</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>161</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="MenuLayout">
+    <item>
+     <widget class="QFrame" name="MenuFrame">
+      <property name="styleSheet">
+       <string notr="true">QFrame {background-color: #ecf0f5;}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="category_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>330</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}</string>
+       </property>
+       <property name="text">
+        <string>Manager</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/manager.png</normaloff>../../IMAGES/WORKERS/manager.png</iconset>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string>Cuisiniers</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/cooker.png</normaloff>../../IMAGES/WORKERS/cooker.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string>Caissiers</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/cashier.png</normaloff>../../IMAGES/WORKERS/cashier.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028 }
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string>Serveurs</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/waiter.png</normaloff>../../IMAGES/WORKERS/waiter.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string>Agents de Sécurité</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/guard.png</normaloff>../../IMAGES/WORKERS/guard.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>210</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string>Agents d'Entretien</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/cleaner.png</normaloff>../../IMAGES/WORKERS/cleaner.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>290</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>370</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else2.png</normaloff>../../IMAGES/WORKERS/else2.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="category_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>410</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028 ; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{background-color:#f96332; text-decoration:underline;}
+QPushButton:focus{background-color:#f96332; text-decoration:underline;}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else2.png</normaloff>../../IMAGES/WORKERS/else2.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #ecf0f5;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Employé(e)s</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>801</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="prodLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background:white;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="providerDTitle">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Renseignements sur salarié :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDTitle_3">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>340</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Dates et Avances :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerTel">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>150</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerSalaryType">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>270</y>
+         <width>121</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDTitle_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>230</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Renseignements sur salaire :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerDate">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>190</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>60</y>
+         <width>181</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Restaurent Manager Solution</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">text-align:center; color : black; border: 0px solid #f96332; opacity:0.4;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerPayDay">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>310</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerSalary">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>270</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerType">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>110</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="worker">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>70</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="workerAvance">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>380</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid green;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workerAvanceDate">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>380</y>
+         <width>121</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;border:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="providerDTitle_4">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>430</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color:#2f4f4f;border : 0px}</string>
+       </property>
+       <property name="text">
+        <string>Methode de Payement :</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="payMthd">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>430</y>
+         <width>131</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Methode de payement</string>
+       </property>
+       <property name="statusTip">
+        <string>Methode de payement</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox{background-color:white;border : 1px solid; border-radius:1px;}</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Caisse</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Autre</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_3">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>70</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Employé(e)s :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_4">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>110</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Type d'employé :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_5">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>150</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Numero Tel :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_6">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>190</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Date d'embauche :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_7">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>270</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Salaire net (DA) :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_8">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>310</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Date dernier salaire :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_9">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>270</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Salaire par  :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_10">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>380</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Date derniere avance :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MenuProd_11">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>380</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: white;text-align:left; color : #000028; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Date derniere avance :</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>1271</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="MenuProd_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>331</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color: #444444;text-align:left; color : #f96332; border: 0px solid #000028  ;  height:35px;}
+</string>
+       </property>
+       <property name="text">
+        <string>Hotel Manager Solution : Employé(e)s</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/Icons/eat.png</normaloff>../../IMAGES/Icons/eat.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>0</y>
+         <width>601</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color:#444444;color:white;border : 0px;text-align:center;}</string>
+       </property>
+       <property name="text">
+        <string>Fiche d'employé</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="societyIndicator">
+       <property name="geometry">
+        <rect>
+         <x>1070</x>
+         <y>0</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>7</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Powered And Designed by AssyDevSociety © 2020. </string>
+       </property>
+       <property name="statusTip">
+        <string>Powered And Designed by AssyDevSociety © 2020. </string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{color :#ecf0f5;background-color :#444444}</string>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>AssyDevSociety.ALL RIGHTS RESERVED © 2020.</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>930</x>
+         <y>0</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color:#444444;color:white;border : 0px;text-align:center;}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="frame_5">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>28</y>
+     <width>201</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="viewRefWorker">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color :#ecf0f5;color:#444444;}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri Light</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Nombre de salariés de l'entreprise.</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color :#ecf0f5;color:#444444;border:0px;text-align:left;}</string>
+    </property>
+    <property name="text">
+     <string>Salariés</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Restaurent Manager Solution</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align:center; color : black; border: 0px solid #f96332; opacity:0.4;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../IMAGES/Icons/hotel.png</normaloff>../../IMAGES/Icons/hotel.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="workerList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>191</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Liste d'employé(e)s</string>
+    </property>
+    <property name="statusTip">
+     <string>Liste d'employé(e)s</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{background-color: white;text-align:left; color : #000028 ;border:1px solid black;border-radius:5px }
+</string>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="dragDropMode">
+     <enum>QAbstractItemView::DragOnly</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>530</y>
+     <width>1271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="Line" name="line_8">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>0</y>
+         <width>1021</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>1261</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="viewLinaV2_5">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>20</y>
+         <width>20</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="workerCatEdit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Edition Categories d'employés</string>
+       </property>
+       <property name="statusTip">
+        <string>Edition Categories d'employés</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{color:#f96332}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Editer Catégories</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/EditImages/tablet.png</normaloff>../../IMAGES/EditImages/tablet.png</iconset>
+       </property>
+      </widget>
+      <widget class="Line" name="line_7">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="workerEdit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Editer Personnels</string>
+       </property>
+       <property name="statusTip">
+        <string>Edition du personnels</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;}
+QPushButton:hover{color:#f96332}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Editer Personnels</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/EditImages/tablet.png</normaloff>../../IMAGES/EditImages/tablet.png</iconset>
+       </property>
+      </widget>
+      <widget class="Line" name="viewLinaV2_6">
+       <property name="geometry">
+        <rect>
+         <x>1050</x>
+         <y>20</y>
+         <width>20</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="avanceButton">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Avancer une Somme</string>
+       </property>
+       <property name="statusTip">
+        <string>Avancement Somme</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;text-align:center;}
+QPushButton:hover{color:#000028;background-color:#f96332;}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Avance</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/ValidationButton/payment (1).png</normaloff>../../IMAGES/ValidationButton/payment (1).png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="salaireButton">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>20</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Payer Salaire</string>
+       </property>
+       <property name="statusTip">
+        <string>Payement Salaire</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;text-align:center;}
+QPushButton:hover{color:#000028;background-color:#f96332;}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Salaire</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/ValidationButton/payment.png</normaloff>../../IMAGES/ValidationButton/payment.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="lister">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>20</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Liste d'employé(e)s</string>
+       </property>
+       <property name="statusTip">
+        <string>Liste d'employé(e)s</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:#ecf0f5;text-align:left; color : black; border: 0px solid #000028  ;  height:35px;text-align:center;}
+QPushButton:hover{color:#000028;background-color:#f96332;}
+QPushButton:focus{background-color:#f96332;; color:white}</string>
+       </property>
+       <property name="text">
+        <string>Liste Employé(e)s</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../IMAGES/WORKERS/else.png</normaloff>../../IMAGES/WORKERS/else.png</iconset>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
