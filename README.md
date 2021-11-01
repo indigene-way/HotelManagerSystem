@@ -1,7 +1,7 @@
 # HotelManagerSystem 
 OLD VERSION 2.0.0 NoDebbug, unfiniched and unsold
 
-Hotel : rooms, clients, restaurent Point of sale (tablereal time rolling), Register, stock, providers, employees, accouting, statistics...Manager.
+Hotel : rooms, clients, restaurent Point of sale (tables real time rolling), Register, stock, providers, employees, accouting, statistics...Manager.
 
 No debbug, bad memory management, some issues in products and restaurent tables data management...unfiniched statistics section, never tested!!
 
