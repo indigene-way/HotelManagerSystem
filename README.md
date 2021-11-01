@@ -1,5 +1,6 @@
 # HotelManagerSystem
-Hotel : rooms, clients, restaurent Point of sale (tablereal time rolling), Register, stock, providers, employees, accouting, statistics...Manager
+Hotel : rooms, clients, restaurent Point of sale (tablereal time rolling), Register, stock, providers, employees, accouting, statistics...Manager.
+
 No debbug, bad memory management, some issues in products and restaurent tables data management...unfiniched statistics section, never tested!!
 1-Hotel CMS
 ![S1](https://user-images.githubusercontent.com/42687107/139756048-f56b44e3-9f17-45de-a3cc-8430451de9c7.png)
